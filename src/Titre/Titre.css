@@ -1,0 +1,49 @@
+.titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin:0 auto;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+.titreElement{
+    font-size:30px ;
+    font-weight: bold;
+    line-height: 25px;
+ 
+}
+.titreScore{
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 30px;
+ 
+}
+
+.titreElement p{
+    font-size:30px ;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.titreScore p:nth-child(1){
+    color: blue;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
+
+.titreScore p:last-child{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgba(90, 90, 90, 0.7);
+    padding: 10px;
+}
+
+
+
+
