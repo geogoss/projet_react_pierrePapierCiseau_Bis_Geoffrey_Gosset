@@ -1,0 +1,69 @@
+.cadreJeu{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chaqueJoueur{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.chaqueJoueur p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.rondNoir{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.choixStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.paperStep{
+    border: 20px solid #5671F5;
+
+}
+.scissorsStep{
+    border: 20px solid #ECA724;
+
+}
+.rockStep{
+    border: 20px solid #DF405E;
+
+}
+
+.resultat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultat p{
+    font-size: 20px;
+}
+
+.resultat button{
+    padding: 10px;
+    color: red;
+}
